@@ -31,3 +31,4 @@ function removeLastKitten() {
   let lessKittens = kittens.slice(0, -1);
   return lessKittens;
 }
+function remove
