@@ -26,4 +26,7 @@ function prependKitten(kitten) {
   let newerKittens = [kitten].concat(kittens)
   return newerKittens
 }
-  
+
+function removeLastKitten() {
+  let lessKittens = kittens.slice()
+}
