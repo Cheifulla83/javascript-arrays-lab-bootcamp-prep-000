@@ -23,7 +23,7 @@ function appendKitten(kitten) {
 }
 
 function prependKitten(kitten) {
-  let newerKittens = kittens.(kitten)
+  let newerKittens = kitten.concat(kittens)
   return newerKittens
-  
 }
+  
